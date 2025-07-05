@@ -23,6 +23,15 @@ bool exibirMenu = true;
 while (exibirMenu)
 {
     Console.Clear();
+
+    // Implementei aqui para mostrar o valor inicial e o valor por hora;
+    Console.WriteLine("ESTACIONAMENTO DE VEÍCULOS - DIO - 2025 by https://github.com/Chandrer/chandrer-silva.git");
+    Console.WriteLine("------------------------------------------------------------------------------------------");
+    Console.WriteLine($"Valor Inicial.: R$ {precoInicial:N2}");
+    Console.WriteLine($"Valor por Hora: R$ {precoPorHora:N2}");
+    Console.WriteLine("------------------------------------------------------------------------------------------");
+    Console.WriteLine("");
+
     Console.WriteLine("Digite a sua opção:");
     Console.WriteLine("1 - Cadastrar veículo");
     Console.WriteLine("2 - Remover veículo");
